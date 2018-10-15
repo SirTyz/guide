@@ -23,6 +23,21 @@ Let's break down this example. First we set the display property to "flex" so we
 
 Now lets have a short look at "justify-content". This property declares how elements are distributed inside the parent element. We chose the "center" value. This means all elements inside this element will be centered.
 
+#### Additional Properties
+
+Below are some examples of additional properties that you can apply to either the parent element or the children elements to change the default behavoir of flexbox. 
+
+##### Order
+The default behavoir of flexbox is to display the children in order as they are displayed in the html. With the order property we can change this behavoir by applying the property to a child of our flexbox container. A basic example of this is the following code:
+
+``` css
+.child-element {
+  order: 1
+}
+```
+
+Now as long as all other elements have a larger number than the element above, our element above will display first in the flexbox.
+
 #### More Information:
 To get a complete understanding of Flexbox, read <a href="https://medium.freecodecamp.org/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af" target='_blank' rel="nofollow">Understanding Flexbox Everything you need to know</a> on the FreeCodeCamp Medium page.
 
