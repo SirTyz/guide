@@ -27,3 +27,8 @@ A collection of articles covering the basics (core language and working with a b
 
 - [Online](https://javascript.info/)
 - [E-book](https://javascript.info/ebook)
+
+*JavaScript for Kids: A Playful Introduction to Programming*
+A base level beginner's introduction to programming with JavaScript. Don't let the title fool you. Just because it says it is for kids doesn't mean an absolute beginner can't learn from it.
+
+- [Amazon](https://www.amazon.com/JavaScript-Kids-Playful-Introduction-Programming/dp/1593274084/)
